@@ -1,0 +1,72 @@
+xterm*termName: xterm-256color
+XTerm*locale: true
+XTerm*metaSendsEscape: true
+
+! grassland by bohoomil
+
+*background:  #101010
+*foreground:  #b8d68c
+*cursorColor: #b8d68c
+
+! black
+*color0:  #101010
+! dark gray
+*color8:  #404040
+
+! red
+*color1:  #d23d3d
+! bright red
+*color9:  #e84f4f
+
+! green
+*color2:  #a0cf5d
+! bright green
+*color10: #b8d68c
+
+! yellow
+*color3:  #f39d21
+! bright yellow
+*color11: #e1aa5d
+
+! blue
+*color4:  #4e9fb1
+! bright blue
+*color12: #7dc1cf
+
+! magenta
+*color5:  #8542ff
+! bright magenta
+*color13: #9b64fb
+
+! cyan
+*color6:  #42717b
+! bright cyan
+*color14: #6d878d
+
+! light gray
+*color7:  #dddddd
+! white
+*color15: #dddddd
+
+! vim:ft=xdefaults
+
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+
+URxvt*scrollBar: false
+
+URxvt*background:       rgba:0000/0000/0000/cccc
+
+URxvt.transparent:   true
+URxvt.tintColor:     white
+URxvt.shading:       20
+
+URxvt.font:             -*-terminus-medium-r-*-*-12-*-*-*-*-*-*-*
+URxvt.boldFont:         -*-terminus-medium-r-*-*-12-*-*-*-*-*-*-*
+
